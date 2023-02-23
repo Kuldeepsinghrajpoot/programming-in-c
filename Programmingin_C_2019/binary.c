@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+ int a[20]={1},i,j;
+ for(i=0;i<=10;i++)
+ {
+  for(j=1;j<=i;j++)
+  printf("%d",a[j]);
+  printf("\n");
+  }
+}
